@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "codeapp"
+  s.name         = "CodeApp"
   s.version      = "0.0.1"
   s.summary      = "This is CodeApp. Welcome to CodeApp"
 
@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   # s.description  = <<-DESCDESC
 
-  s.homepage     = "https://github.com/guohongquan/codeapp"
+  s.homepage     = "https://github.com/guohongquan/CodeApp"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -78,7 +78,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/guohongquan/codeapp.git", :tag => s.version }
+  s.source       = { :git => "https://github.com/guohongquan/CodeApp.git", :tag => s.version }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -89,7 +89,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = 'Helloiticle/**/*.{h,m}'
+  s.source_files  = 'CodeApp/'
   # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
