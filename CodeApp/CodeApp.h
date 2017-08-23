@@ -1,17 +1,18 @@
 //
-//  iticle.m
+//  iticle.h
 //  IticleDemo
 //
 //  Created by 陈胜华 on 2017/8/23.
 //  Copyright © 2017年 iticle. All rights reserved.
 //
 
-#import "iticle.h"
+#import <Foundation/Foundation.h>
 
-@implementation iticle
+@interface CodeApp : NSObject
 
-+ (void)iticleLog {
-    NSLog(@"Welcome to iticle!");
-}
+/**
+ log
+ */
++ (void)codeAppLog;
 
 @end

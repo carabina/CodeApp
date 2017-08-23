@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "iticle.h"
+#import "CodeApp.h"
 
 @interface ViewController ()
 
@@ -19,7 +19,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    [iticle iticleLog];
+    [CodeApp codeAppLog];
 }
 
 
