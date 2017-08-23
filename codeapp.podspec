@@ -3,10 +3,10 @@ Pod::Spec.new do |s|
     s.version      = "0.0.1"
     s.summary      = "A state bar hud for iOS on window"
     s.homepage     = "https://github.com/guohongquan/CodeApp"
-    s.license      = "MIT"
+    s.license      = { :type => "MIT", :file => "LICENSE" }
     s.author             = { "iticle" => "guohongquan1027@163.com" }
     s.source       = { :git => "https://github.com/guohongquan/CodeApp.git", :tag => s.version }
-    s.source_files  = "CodeApp/*"
+    # s.source_files  = "CodeApp/*.{h,m}"
     s.requires_arc = true
     s.platform     = :ios, "7.0"
 end
